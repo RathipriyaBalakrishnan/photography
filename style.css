@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&family=Cinzel+Decorative:wght@400;700&family=PT+Serif&family=Roboto:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(193, 165, 199);
+}
+.container{
+    width: 75vw;
+    height: 200vh;
+}
+.one{
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    align-content: center;
+    margin-bottom: 5px;
+    margin-left:120px ;  
+    margin-top: 10px; 
+}
+.two{
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+.three,.four{
+    margin-bottom: 5px;
+}
+.a{
+    background:whitesmoke;
+    width:20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    align-content: center; 
+    padding-left: 8px;
+}
+#firstImage{
+    width: 75vw;
+    height:50vh;
+    padding-bottom: 10px;
+}
+#secondImage{
+    width: 75vw;
+    height:50vh;
+}
+#firstImageName,#secondImageName,#thirdImageName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-right: 300px;
+    padding-left: 220px;
+}
+#thirdImage{
+    width: 75vw;
+    height:50vh;
+}
+#fourthImage{
+    width: 75vw;
+    height:50vh;
+}
+
+#ourWork{
+    padding-bottom: 20px;
+    padding-left: 400px;
+     background-color: black; 
+    padding-top: 20px ;
+    color: white; 
+}
+
+.div{
+    padding-top: 10px;
+   background-color:white;
+   width: 75vw;
+   height: 10vh;
+   color: black;
+}
+
+#backGroundImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    height: 50vh;
+    margin-left:43vh;
+}
+#viewWork{
+    cursor: pointer;
+    text-decoration:underline;
+    border: 7px solid black;
+    border-radius: 20%;
+    padding: 5px;
+    background-color:whitesmoke;
+    color: black;
+}
+#viewWork:hover{
+    color:blue;
+}
